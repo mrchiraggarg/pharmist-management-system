@@ -1,0 +1,21 @@
+.profile input[type=text]:disabled {
+	background: #E8F0FE;
+	color: #2b3553;
+}
+
+.profile textarea:disabled {
+	background: #E8F0FE;
+	color: #2b3553;
+	overflow: hidden;
+}
+
+.custom-select:focus {	
+	background: #E8F0FE !important;
+	color: #2b3553;
+}
+
+@media only screen and (max-width: 1100px ) {
+	.profile textarea:disabled {
+	overflow: visible;
+}
+}
